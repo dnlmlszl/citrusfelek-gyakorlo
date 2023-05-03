@@ -160,6 +160,9 @@ p {
     font-size: 1.5rem;
     color: var(--clr-grey-1);
 }
+.nav-links a {
+    font-size: 1.15rem;
+}
 .showlinks {
     visibility: hidden;
 }
@@ -188,16 +191,15 @@ p {
         align-items: center;
     }
     .nav-links li {
-        padding-right: 2rem;
+        padding-right: 4rem;
     }
     .nav-links a {
         color: var(--clr-grey-1);
-        font-size: 1.25rem;
+        /* font-size: 1.25rem; */
         transition: var(--transition);
     }
     .nav-links a:hover {
         color: green;
-        padding-left: 0.25rem;
     }
     .menu-icon {
         display: none;
@@ -252,6 +254,7 @@ p {
     float: right;
     margin-right: 0.25rem;
     margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 .info-btn:hover {
     background: green;
@@ -272,6 +275,9 @@ p {
     }
 }
 
+.special-article {
+    margin-bottom: 2rem;
+}
 .special-article li {
     display: inline-block;
     padding-right: 0.25rem;
@@ -292,6 +298,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;overflow: hidden;
 }
 .footer .social-icons {
     font-size: 2rem;
